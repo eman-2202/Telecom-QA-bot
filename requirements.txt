@@ -1,0 +1,30 @@
+# ============================================================
+# Telecom RAG Bot — Python Requirements
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# ── Core LLM & Orchestration ────────────────────────────────
+ollama>=0.2.0                      # Ollama Python client (LLM + embeddings)
+langchain>=0.2.0                   # LangChain core framework
+langchain-community>=0.2.0         # Community loaders (PyPDFDirectoryLoader, TextLoader)
+langchain-chroma>=0.1.0            # LangChain ChromaDB integration
+langchain-ollama>=0.1.0            # LangChain Ollama embedding wrapper
+langchain-core>=0.2.0              # LangChain base abstractions
+langchain-text-splitters>=0.2.0    # RecursiveCharacterTextSplitter
+
+# ── Vector Store ────────────────────────────────────────────
+chromadb>=0.5.0                    # ChromaDB vector database
+
+# ── Document Loading ────────────────────────────────────────
+pypdf>=4.0.0                       # PDF parsing (used by PyPDFDirectoryLoader)
+pandas>=2.0.0                      # Excel loading and row processing
+openpyxl>=3.1.0                    # Excel .xlsx file support for pandas
+
+# ── Web UI ──────────────────────────────────────────────────
+gradio>=4.0.0                      # Gradio web interface
+
+# ── Evaluation & Visualization ──────────────────────────────
+matplotlib>=3.7.0                  # Hit@k bar chart plotting
+
+# ── Utilities ───────────────────────────────────────────────
+numpy>=1.24.0                      # Numerical operations (ChromaDB dependency)

@@ -1,0 +1,23 @@
+Procedure 1: High PRB Utilization Response
+1. Check PRB utilization KPI in monitoring dashboard.
+2. Verify if utilization exceeds critical threshold.
+3. Identify top cells contributing to congestion.
+4. Apply load balancing or handover optimization.
+5. Notify operations team if congestion persists.
+6. Document actions in NOC logbook.
+
+Procedure 2: Handover Failure Investigation
+1. Review handover success rate KPI.
+2. Identify cells with abnormal failure rates.
+3. Check neighbor relations configuration.
+4. Validate signal strength and interference levels.
+5. Restart affected gNB if needed.
+6. Escalate to RAN engineering if unresolved.
+
+Procedure 3: SMF Overload Procedure
+1. Monitor CPU and memory utilization of SMF.
+2. Verify overload alarms in system logs.
+3. Redirect new sessions to backup SMF.
+4. Limit non-critical signaling traffic.
+5. Notify core network team.
+6. Record incident in NOC system.
