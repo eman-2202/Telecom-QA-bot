@@ -289,7 +289,7 @@ Each query below was run **twice**: once without filtering (all sources) and onc
 
 > **Observation:** Applying the correct metadata filter consistently improved answer precision by eliminating irrelevant chunks from other document types, especially for domain-specific procedural and threshold queries.
 
----
+-----
 
 ## 🛠️ Stack
 
@@ -303,7 +303,7 @@ Each query below was run **twice**: once without filtering (all sources) and onc
 | PDF Loading | LangChain PyPDFDirectoryLoader |
 | Excel Loading | pandas |
 
----
+-----
 
 ## 👥 Team Members
 
