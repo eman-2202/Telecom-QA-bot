@@ -1,6 +1,6 @@
 
 
-<h1>📡 Telecom Q&A RAG Bot</h1>
+<h1>📡 Telecom Q&A RAG ChatBot</h1>
 <div align="center">
 <p><em>A production-grade Multi-Source Retrieval-Augmented Generation system built for telecom engineers.<br/>
 Query 3GPP technical specifications, KPI threshold tables, and NOC runbooks using natural language — with full source attribution.</em></p>
